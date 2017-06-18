@@ -1,0 +1,89 @@
+html, body, ul, ol, li, form, fieldset, legend {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-size: 1em;
+  margin-bottom: 24px;
+}
+
+fieldset,img { border: 0; }
+
+legend { color: #000; }
+
+li { list-style: none; }
+
+sup { vertical-align: text-top; }
+
+sub { vertical-align: text-bottom; }
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select {
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+abbr, acronym {
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1080px;
+  width:95%;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 25px 0;
+}
+
+hr {
+  border-top: 1px solid #000;
+  margin-bottom: 25px;
+}
+
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 25px 0;
+}
+
+.logo {
+  position: absolute;
+  left: calc(-35px + -30px);
+  margin-top: -2px;
+}
+
+.about {
+  float: right;
+}
