@@ -1,49 +1,29 @@
 import React from 'react'
-import { Link } from 'react-router'
-import sortBy from 'lodash/sortBy'
 import get from 'lodash/get'
-import { prefixLink } from 'gatsby-helpers'
 import Helmet from "react-helmet"
 import { config } from 'config'
-import include from 'underscore.string/include'
 
-class BlogIndex extends React.Component {
+class BlogAbout extends React.Component {
   render () {
-    // Sort pages.
-    const sortedPages = sortBy(this.props.route.pages, 'data.date')
-    // Posts are those with md extension that are not 404 pages OR have a date (meaning they're a react component post).
-    const visiblePages = sortedPages.filter(page => (
-      get(page, 'file.ext') === 'md' && !include(page.path, '/404') || get(page, 'data.date')
-    ))
     return (
       <div class="">
         <Helmet
-          title={config.blogTitle}
+          title={`About ${config.blogTitle}`}
           meta={[
-            {"name": "description", "content": "Sample blog"},
+            {"name": "description", "content": "Maxim Siebert is a designer that enjoys building the things he designs. He solves problems with digital products by helping teams with product management, copywriting, product design and front-end development."},
             {"name": "keywords", "content": "blog, articles"},
           ]}
         />
-        <h2>Maxim Siebert</h2>
+        <h1>{config.blogTitle}</h1>
         <hr/>
-        <ul>
-          {visiblePages.map((page) => (
-              <li
-                key={page.path}
-              >
-                <Link to={prefixLink(page.path)}>
-                    {get(page, 'data.title', page.path)}
-                </Link>
-              </li>
-          ))}
-        </ul>
+        <h4>O hi, Ive been expecting your face. I’m a designer that enjoys building the things I design. I help teams solve problems with digital products.</h4>
       </div>
     )
   }
 }
 
-BlogIndex.propTypes = {
+BlogAbout.propTypes = {
   route: React.PropTypes.object,
 }
 
-export default BlogIndex
+export default BlogAbout

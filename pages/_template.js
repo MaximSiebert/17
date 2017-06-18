@@ -14,7 +14,8 @@ class Template extends React.Component {
       header = (
         <h1 className="logo">
           <Link to={prefixLink('/')}>
-            <img src={m} />
+            <img src={m} alt={ config.blogTitle }/>
+            <span className="visually-hidden">{ config.blogTitle }</span>
           </Link>
         </h1>
       )
@@ -22,7 +23,8 @@ class Template extends React.Component {
       header = (
         <h3 className="logo">
           <Link to={prefixLink('/')}>
-            <img src={m} />
+            <img src={m} alt={ config.blogTitle }/>
+            <span className="visually-hidden">{ config.blogTitle }</span>
           </Link>
         </h3>
       )
