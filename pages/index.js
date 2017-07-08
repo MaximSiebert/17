@@ -23,8 +23,16 @@ class BlogIndex extends React.Component {
         <Helmet
           title={ config.blogTitle }
           meta={ [
-            {"name": "description", "content": "Maxim Siebert is a designer that enjoys building the things he designs. He solves problems with digital products by helping teams with product management, copywriting, product design and front-end development."},
+            {"name": "description", "content": "Maxim is a product designer who helps teams with product management, copywriting and front-end development."},
             {"name": "keywords", "content": "blog, articles"},
+            {"name": "theme-color", "content": "#ffffff"},
+          ] }
+          link={ [
+            {"rel": "apple-touch-icon", "sizes": "76x76", "href": "images/apple-touch-icon.png"},
+            {"rel": "icon", "type": "image/png", "sizes":"32x32", "href": "images/favicon-32x32.png"},
+            {"rel": "icon", "type": "image/png", "sizes":"16x16", "href": "images/favicon-16x16.png"},
+            {"rel": "manifest", "href": "images/manifest.json"},
+            {"rel": "mask-icon", "href": "images/safari-pinned-tab.svg", "color": "#000000"},
           ] }
         />
         <PageTitle type="h2">Product Designer</PageTitle>

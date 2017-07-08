@@ -18,7 +18,7 @@ class BlogAbout extends React.Component {
           <Helmet
             title={`About ${ config.blogTitle }`}
             meta={[
-              {"name": "description", "content": "Maxim Siebert is a designer that enjoys building the things he designs. He solves problems with digital products by helping teams with product management, copywriting, product design and front-end development."},
+              {"name": "description", "content": "Maxim is a product designer who helps teams with product management, copywriting and front-end development."},
               {"name": "keywords", "content": "blog, articles"},
             ]}
           />
