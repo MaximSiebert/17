@@ -28,11 +28,11 @@ class BlogIndex extends React.Component {
             {"name": "theme-color", "content": "#ffffff"},
           ] }
           link={ [
-            {"rel": "apple-touch-icon", "sizes": "76x76", "href": "images/apple-touch-icon.png"},
-            {"rel": "icon", "type": "image/png", "sizes":"32x32", "href": "images/favicon-32x32.png"},
-            {"rel": "icon", "type": "image/png", "sizes":"16x16", "href": "images/favicon-16x16.png"},
+            {"rel": "apple-touch-icon", "sizes": "76x76", "href": "images/apple-touch-icon.png?v=1"},
+            {"rel": "icon", "type": "image/png", "sizes":"32x32", "href": "images/favicon-32x32.png?v=1"},
+            {"rel": "icon", "type": "image/png", "sizes":"16x16", "href": "images/favicon-16x16.png?v=1"},
             {"rel": "manifest", "href": "images/manifest.json"},
-            {"rel": "mask-icon", "href": "images/safari-pinned-tab.svg", "color": "#000000"},
+            {"rel": "mask-icon", "href": "images/safari-pinned-tab.svg?v=1", "color": "#000000"},
           ] }
         />
         <PageTitle type="h2">Product Designer</PageTitle>
