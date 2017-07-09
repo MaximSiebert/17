@@ -36,9 +36,9 @@ class BlogAbout extends React.Component {
                   <div className="w-50 mb4">
                     <p className="sans-serif-heading mb2 mt0 f3-ns f4 ttu">Experience</p>
                     <ul className="f5">
-                      <li className="mb1">
+                      {/* <li className="mb1">
                         <Link className="link gray hover-black" to="http://normative.com/" target="_blank">Normative</Link>
-                      </li>
+                      </li> */}
                       <li className="mb1">
                         <Link className="link gray hover-black" to="https://postlight.com/" target="_blank">Postlight</Link>
                       </li>
