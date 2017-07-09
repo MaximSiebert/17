@@ -23,7 +23,7 @@ class MarkdownWrapper extends React.Component {
           <PageTitle>{post.title}</PageTitle>
           <section className="pb4-ns pb3">
             <h2 className="f-headline-l f-subheadline-ns f1 lh-title sans-serif-heading mb0-l mb2 pb3-l pb2">{post.description}</h2>
-            <div className="f5-l f6 mb4-l mb3-ns mb4 lh-copy">
+            <div className="f5-l f6 mb3-ns mb4 lh-copy">
               <div className="project-role relative dib mb0-ns mb2">
                 {post.role}
               </div>
