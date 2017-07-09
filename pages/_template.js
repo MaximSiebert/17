@@ -21,7 +21,7 @@ class Template extends React.Component {
               <span className="visually-hidden">{ config.blogTitle }</span>
             </Link>
           </h1>
-          <Link className="about-link absolute outline link black" to={ prefixLink('/about/') }>
+          <Link className="about-link absolute outline link black hover-bg-white" to={ prefixLink('/about/') }>
             <span>i</span>
           </Link>
         </div>
@@ -35,7 +35,7 @@ class Template extends React.Component {
               <span className="visually-hidden">{ config.blogTitle }</span>
             </Link>
           </h3>
-          <Link className="about-link close absolute outline link black" to={prefixLink('/')}>
+          <Link className="about-link close absolute outline link black hover-bg-white" to={prefixLink('/')}>
             <span>✕</span>
           </Link>
         </div>
