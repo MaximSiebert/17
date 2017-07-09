@@ -39,20 +39,6 @@ abbr, acronym {
 
 /*Fonts*/
 @font-face {
-	font-family:"Univers";
-	font-weight: 400;
-	src:url("../pages/fonts/6510377f-160a-4f66-aec0-2b71f05e9736.eot?#iefix");
-	src:url("../pages/fonts/6510377f-160a-4f66-aec0-2b71f05e9736.eot?#iefix") format("eot"),url("../pages/fonts/5c8d59c2-9c85-4a22-88e3-bf3fba01dcd8.woff2") format("woff2"),url("../pages/fonts/fc51d03b-0d7d-45df-9415-3c6270c80749.woff") format("woff"),url("../pages/fonts/74bdff6d-c5de-42e8-a4d8-11ea14eddb22.ttf") format("truetype"),url("../pages/fonts/bd04ae3d-23dc-4975-9967-e21c43e5b59f.svg") format("svg");
-}
-
-@font-face {
-	font-family:"Univers";
-	font-weight: 600;
-	src:url("../pages/fonts/38dc895e-c366-4a3e-b212-a84a2d07a329.eot?#iefix");
-	src:url("../pages/fonts/38dc895e-c366-4a3e-b212-a84a2d07a329.eot?#iefix") format("eot"),url("../pages/fonts/8a711a0d-3f17-4bfe-887b-6229858332b3.woff2") format("woff2"),url("../pages/fonts/05a79c4b-9e9d-46e4-9d4b-610be05371c4.woff") format("woff"),url("../pages/fonts/4e00405b-a96d-4972-bdff-2d55e1066c45.ttf") format("truetype"),url("../pages/fonts/1e2c0a36-e8bb-4e3b-a4ca-dec00221c06e.svg") format("svg");
-}
-
-@font-face {
 	font-family:"Swiss721";
 	font-weight: 800;
 	src:url("../pages/fonts/aa898871-4566-469b-b50a-5d85c39eebb5.eot?#iefix");
