@@ -38,7 +38,7 @@ class BlogIndex extends React.Component {
         <PageTitle type="h2">Product Designer</PageTitle>
         <section>
           { visiblePages.map((page) => (
-            <article className="project-list-item cf flex flex-wrap flex-row flex-row-reverse-l bg-white" key={ page.path }>
+            <article className="project-list-item flex flex-wrap flex-row flex-row-reverse-l bg-white" key={ page.path }>
               <div className="w-70-l project-image relative bg-black">
                 <Link to={ prefixLink(page.path) }>
                   <img className="bb br bl b--black" src={ `/images/${page.data.img}` } alt={ page.data.title }/>
